@@ -1,0 +1,139 @@
+    .body {
+        background-color: #2E294E !important;
+    }
+    .navbar-neo a{
+        text-decoration: none;
+    }
+    .navbar-neo {
+        top: 0;
+        z-index: 1000; 
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        background-color: #1e1e3f; 
+        padding: 15px 30px;
+    }
+
+    .logo-neo {
+        margin: 0;
+        font-size: 31px; 
+    }
+
+    .nav-links {
+        list-style: none; 
+        display: flex;    
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+        position: relative;
+    }
+
+    .logo-neo {
+        font-family:'audiowide', cursive;
+    }
+
+    .nav-links li {
+        margin-left: 0px; 
+        gap: 30px;
+    }
+
+    .nav-links a {
+        text-decoration: none; 
+        color: #0FF1CE; 
+        font-size: 20px;
+        font-weight: bold;
+        font-family: oxanium, sans-serif;
+    }
+    .nav-links a:hover {
+        color: #FF71CE; 
+    }
+    
+    .nav-item .dropdown-toggle {
+        padding: 0 !important;
+        line-height: normal !important;
+        display: inline-block !important;
+        margin-top: -2px; 
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        display: none;
+        margin-top: 0; 
+        border: none;
+        border-radius: 0;
+        min-width: 250px; 
+        background-color: #1e1e3f; 
+        padding: 10px 0;
+        position: absolute; 
+        right: 0;
+        left: auto;
+    }
+    .nav-item.dropdown img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #0FF1CE;
+        font-family: oxanium, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        background-color: #2E294E; 
+        color: #FF71CE; 
+    }
+
+    .nav-item { 
+        Border: 1px solid transparent;
+        width:60px; 
+        height: 20px;
+    }
+    .neo-logo {
+        font-family: 'Audiowide', cursive;
+        font-weight: 400;
+        font-size: 100px;
+        justify-content: center;
+    }
+    .caption {
+        font-family: 'Oxanium', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        color: #F1F5F9;
+    }
+    .content {
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-carousel {
+        position: relative;
+        width: 500px; 
+        height: 500px;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-inner img {
+        height: 100%;
+        object-fit:cover;
+    }
+
+.footer-connect p {
+    padding-top: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    color:#F1F5F9;
+    opacity: 35%;
+    justify-self: center;
+}

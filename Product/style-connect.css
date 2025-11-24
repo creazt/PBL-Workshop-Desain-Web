@@ -1,0 +1,214 @@
+    .header {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        Border: 1px solid #000
+    }
+
+    .body {
+        background-color: #2E294E !important;
+    }
+    .navbar-neo a{
+        text-decoration: none;
+    }
+    .navbar-neo {
+        top: 0;
+        z-index: 1000; 
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        background-color: #1e1e3f; 
+        padding: 15px 30px;
+    }
+
+    .logo-neo {
+        margin: 0;
+        font-size: 31px; 
+    }
+
+    .nav-links {
+        list-style: none; 
+        display: flex;    
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+        position: relative;
+    }
+
+    .logo-neo {
+        font-family:'audiowide', cursive;
+    }
+
+    .nav-links li {
+        margin-left: 0px; 
+        gap: 30px;
+    }
+
+    .nav-links a {
+        text-decoration: none; 
+        color: #0FF1CE; 
+        font-size: 20px;
+        font-weight: bold;
+        font-family: oxanium, sans-serif;
+    }
+    .nav-links a:hover {
+        color: #FF71CE; 
+    }
+    
+    .nav-item .dropdown-toggle {
+        padding: 0 !important;
+        line-height: normal !important;
+        display: inline-block !important;
+        margin-top: -2px; 
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        display: none;
+        margin-top: 0; 
+        border: none;
+        border-radius: 0;
+        min-width: 250px; 
+        background-color: #1e1e3f; 
+        padding: 10px 0;
+        position: absolute; 
+        right: 0;
+        left: auto;
+    }
+    .nav-item.dropdown img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #0FF1CE;
+        font-family: oxanium, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        background-color: #2E294E; 
+        color: #FF71CE; 
+    }
+
+    .nav-item { 
+        Border: 1px solid transparent;
+        width:60px; 
+        height: 20px;
+    }
+
+.hero-title {
+    height: 75px;
+    margin: 40px auto 10px;
+    max-width: 1000px;
+    Border: 1px solid transparent;
+    justify-content: center;
+    text-align: center;
+}
+.hero-image {
+    max-height: 150px;
+    max-width: 50%;
+}
+.desc {
+    height: 100px;
+    margin: 20px auto 5px;
+    max-width: 1000px;
+    Border: 1px solid transparent;
+    justify-content: center;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif !important;
+    font-size: 20px;
+    color: #F1F5F9;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    Border: 1px solid transparent;
+} 
+
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    width: 240px;
+    height: 50px;
+    margin: 5px;
+    Border: 1px solid transparent;
+}
+.rani h3 {
+    font-family: 'oxanium', sans-serif;
+    font-size: 55px;
+    padding-bottom: 1px;
+    color:#FF71CE
+}
+
+.syafiq h3 {
+    font-family: 'oxanium', sans-serif;
+    font-size: 55px;
+    padding-bottom: 1px;
+    color:#01CDFE
+}
+
+.role {
+    width: 240px;
+    height: 100px;
+    margin: 5px;
+    Border: 1px solid transparent;
+}
+.role p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    color:#F1F5F9
+}
+
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sub.left {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.sub.right {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    Border: 1px solid transparent;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.footer-connect p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    color:#F1F5F9;
+    opacity: 35%;
+    justify-self: center;
+}

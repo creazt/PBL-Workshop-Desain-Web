@@ -1,0 +1,237 @@
+
+/* === BODY & GLOBAL === */
+body {
+    background-color: #2E294E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-top: 100px;
+    color: white;
+}
+
+/* === NAVBAR === */
+.navbar-neo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #1e1e3f;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.logo-neo {
+  margin: 0;
+  font-size: 31px;
+  font-family: 'Audiowide', cursive;
+}
+
+.nav-links {
+  list-style: none; 
+  display: flex;  
+  margin: 0;     
+  padding: 0;
+  gap: 30px;
+  position: relative;
+}
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a:hover {
+  color: #FF71CE; 
+}
+    
+.nav-links a {
+  text-decoration: none; 
+  color: #0FF1CE; 
+  font-size: 20px;
+  font-weight: bold;
+  font-family: oxanium, sans-serif;
+  justify-items: center;
+}
+.nav-item .dropdown-toggle {
+  padding: 0 !important;
+  line-height: normal !important;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  margin-top: 0; 
+  border: none;
+  border-radius: 0;
+  min-width: 250px; 
+  background-color: #1e1e3f; 
+  padding: 10px 0;
+  position: absolute; 
+  right: 0;
+  left: auto;
+}
+
+.nav-item.dropdown img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #0FF1CE;
+  font-family: oxanium, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #2E294E; 
+  color: #FF71CE; 
+}
+
+.nav-item { 
+  Border: 1px solid transparent;
+  padding-top: 1px;
+}
+
+/* === GAME CARD (Tidak diubah dari layout asli) === */
+.game-card {
+  display: flex;
+  gap: 20px;
+
+}
+
+.game-poster {
+  max-width: 450px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  flex-shrink: 0;
+}
+
+.game-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title {
+  font-size: 45px;
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.game-desc {
+  background: linear-gradient(135deg, #1a2a5a, #5a1a5a);
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  flex-grow: 1;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.game-meta {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.game-meta span {
+  margin: 0;
+  padding: 0;
+}
+
+.poster-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.star {
+  color: gold;
+  font-size: 24px;
+}
+
+.platform-icons {
+  display: flex;
+  gap: 36px;
+}
+
+.platform-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  filter: drop-shadow(0 0 3px rgba(255,255,255,0.3));
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.tag {
+  background: #001f3f;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #00f7d9;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.footer-connect {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border: 1px solid transparent;
+}
+
+.footer-connect p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  color:#F1F5F9;
+  opacity: 35%;
+  justify-self: center;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .game-card {
+flex-direction: column;
+align-items: center;
+  }
+  .game-info {
+width: 100%;
+  }
+  .navbar-neo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoArcade - Layout Polos</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: white;
+      color: black;
+      padding-top: 60px; /* Ruang untuk navbar */
+    }
+
+    /* === Navbar Polos === */
+    .navbar-neo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      border: 1px solid #000;
+      background: white;
+      z-index: 1000;
+    }
+
+    .logo-neo {
+      width: 120px;
+      height: 40px;
+      border: 1px solid #000;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .nav-links li {
+      width: 80px;
+      height: 30px;
+    }
+
+    .nav-links a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #000;
+      text-decoration: none;
+    }
+
+    /* Dropdown (polos) */
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      min-width: 200px;
+      border: 1px solid #000;
+      background: white;
+      z-index: 1001;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-item {
+      height: 30px;
+      border: 1px solid #000;
+      margin-bottom: -1px; /* Hindari double border */
+    }
+
+    /* === Game Card === */
+    .game-card {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .game-poster {
+      width: 300px;
+      height: 450px;
+      border: 1px solid #000;
+    }
+
+    .poster-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .rating {
+      width: 120px;
+      height: 24px;
+      border: 1px solid #000;
+    }
+
+    .platform-icons {
+      display: flex;
+      gap: 8px;
+    }
+
+    .platform-icons div {
+      width: 32px;
+      height: 32px;
+      border: 1px solid #000;
+    }
+
+    .game-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .game-title {
+      height: 30px;
+      border: 1px solid #000;
+    }
+
+    .game-desc {
+      height: 150px;
+      border: 1px solid #000;
+      flex-grow: 1;
+    }
+
+    .game-meta {
+      display: grid;
+      gap: 8px;
+    }
+
+    .game-meta span {
+      height: 80px;
+      border: 1px solid #000;
+    }
+
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      width: 120px;
+      height: 24px;
+      border: 1px solid #000;
+    }
+
+    /* === Responsif === */
+    @media (max-width: 768px) {
+      .game-card {
+        flex-direction: column;
+        align-items: center;
+      }
+      .game-poster {
+        width: 90%;
+        height: auto;
+        aspect-ratio: 2/3;
+      }
+      .game-info {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar Polos -->
+  <nav class="navbar-neo">
+    <div class="logo-neo"></div>
+    <ul class="nav-links">
+      <li><a href="#"></a></li>
+      <li class="nav-item dropdown">
+        <a href="#"></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item"></div>
+          <div class="dropdown-item"></div>
+          <div class="dropdown-item"></div>
+          <div class="dropdown-item"></div>
+          <div class="dropdown-item"></div>
+        </div>
+      </li>
+      <li><a href="#"></a></li>
+    </ul>
+  </nav>
+
+  <!-- Game Card Polos -->
+  <div class="game-card">
+    <div>
+      <div class="game-poster"></div>
+      <div class="poster-actions">
+        <div class="rating"></div>
+        <div class="platform-icons">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-info">
+      <div class="game-title"></div>
+      <div class="game-desc"></div>
+      <div class="game-meta">
+        <span></span>
+      </div>
+      <div class="tags-container">
+        <div class="tag"></div>
+        <div class="tag"></div>
+        <div class="tag"></div>
+        <div class="tag"></div>
+        <div class="tag"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
