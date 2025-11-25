@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NeoArcade - Rhythm (Polos)</title>
+  <title>NeoArcade - Genre</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     * {
@@ -19,7 +19,6 @@
       padding-top: 70px;
     }
 
-    /* === Navbar Polos === */
     .navbar-neo {
       position: fixed;
       top: 0;
@@ -63,7 +62,6 @@
       text-decoration: none;
     }
 
-    /* === Header Sesuai Struktur Asli === */
     .header {
       text-align: center;
       padding: 20px 10px;
@@ -78,7 +76,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 120px; /* sesuaikan tinggi seperti area hero */
+      height: 120px;
       border: 1px solid #000;
     }
 
@@ -97,7 +95,6 @@
       line-height: 1.5;
     }
 
-    /* === Poster Grid === */
     .games-container {
       display: flex;
       gap: 15px;
@@ -123,27 +120,9 @@
       height: 40px;
       border: 1px solid #000;
     }
-
-    /* === Mobile === */
-    @media (max-width: 768px) {
-      .hero-title {
-        min-width: auto;
-        height: 100px;
-      }
-      .games-container {
-        flex-direction: column;
-        align-items: center;
-      }
-      .game-item {
-        width: 90%;
-        max-width: 300px;
-      }
-    }
   </style>
 </head>
 <body>
-
-  <!-- NAVBAR -->
   <nav class="navbar-neo">
     <a href="portal.html" class="nav-logo"></a>
     <ul class="nav-links">
@@ -160,18 +139,13 @@
       <li><a href="connect.html"></a></li>
     </ul>
   </nav>
-
-  <!-- HEADER: struktur sesuai desain asli -->
   <div class="header">
     <div class="hero-title">
-      <!-- Gambar hero (hanya placeholder visual, tetap polos) -->
       <div class="hero-image" style="width: 100%; height: 100%;"></div>
     </div>
     <div class="desc">
     </div>
   </div>
-
-  <!-- GAME POSTERS -->
   <div class="games-container">
     <div class="game-item">
       <div class="poster"></div>
@@ -194,7 +168,5 @@
       <div class="name"></div>
     </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

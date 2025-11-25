@@ -1,98 +1,103 @@
-    .body {
-        background-color: #2E294E !important;
-    }
-    .navbar-neo a{
-        text-decoration: none;
-    }
-    .navbar-neo {
-        top: 0;
-        z-index: 1000; 
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        padding: 20px 30px;
-        background-color: #1e1e3f;
-    }
-
-    .logo-neo {
-        margin: 0;
-        font-size: 31px; 
-    }
-
-    .nav-links {
-        list-style: none; 
-        display: flex;    
-        margin: 0;
-        padding: 0;
-        gap: 30px;
-        position: relative;
-    }
-
-    .logo-neo {
-        font-family:'audiowide', cursive;
-    }
-
-    .nav-links li {
-        margin-left: 0px; 
-        gap: 30px;
-    }
-
-    .nav-links a:hover {
-        color: #FF71CE; 
-    }
-    
-    .nav-links a {
-        text-decoration: none; 
-        color: #0FF1CE; 
-        font-size: 20px;
-        font-weight: bold;
-        font-family: oxanium, sans-serif;
-    }
-    .nav-item .dropdown-toggle {
-        padding: 0 !important;
-        line-height: normal !important;
-        display: inline-block !important;
-        margin-top: 2px;
+.body {
+    background-color: #2E294E !important;
 }
 
-    .nav-item.dropdown .dropdown-menu {
-        display: none;
-        margin-top: 0; 
-        border: none;
-        border-radius: 0;
-        min-width: 250px; 
-        background-color: #1e1e3f; 
-        padding: 10px 0;
-        position: absolute; 
-        right: 0;
-        left: auto;
-    }
-    .nav-item.dropdown img {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
-    .nav-item.dropdown:hover .dropdown-menu {
-        display: block;
-    }
+.navbar-neo a{
+    text-decoration: none;
+}
 
-    .dropdown-menu .dropdown-item {
-        color: #0FF1CE;
-        font-family: oxanium, sans-serif;
-        font-weight: bold;
-        padding: 10px 20px;
-    }
+.navbar-neo {
+    top: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 30px;
+    background-color: #1e1e3f;
+}
 
-    .dropdown-menu .dropdown-item:hover {
-        background-color: #2E294E; 
-        color: #FF71CE; 
-    }
+.logo-neo {
+    margin: 0;
+    font-size: 31px; 
+}
 
-    .nav-item { 
-        width:60px; height: 20px;
-        Border: 1px solid transparent;
-        }
+.nav-links {
+    list-style: none; 
+    display: flex;    
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    position: relative;
+}
+
+.logo-neo {
+    font-family:'audiowide', cursive;
+}
+
+.nav-links li {
+    margin-left: 0px; 
+    gap: 30px;
+}
+
+.nav-links a:hover {
+    color: #FF71CE; 
+}
+    
+.nav-links a {
+    text-decoration: none; 
+    color: #0FF1CE; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: oxanium, sans-serif;
+}
+
+.nav-item .dropdown-toggle {
+    padding: 0 !important;
+    line-height: normal !important;
+    display: inline-block !important;
+    margin-top: 2px;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    margin-top: 0; 
+    border: none;
+    border-radius: 0;
+    min-width: 250px; 
+    background-color: #1e1e3f; 
+    padding: 10px 0;
+    position: absolute; 
+    right: 0;
+    left: auto;
+}
+
+.nav-item.dropdown img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #0FF1CE;
+    font-family: oxanium, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #2E294E; 
+    color: #FF71CE; 
+}
+
+.nav-item { 
+    width:60px; height: 20px;
+    Border: 1px solid transparent;
+}
 
 .hero-title {
     max-width: 1000px;
@@ -102,11 +107,10 @@
     justify-content: center;
     text-align: center;
 }
+
 .hero-image {
     max-width: 75%;
 }
-
-
 
 * {box-sizing: border-box;
     margin: 0;
@@ -128,8 +132,7 @@ body {
     border-radius: 16px;
     overflow: hidden;
     background: 
-linear-gradient(135deg, #0f0c29, #302b63, #24243e),
-repeating-linear-gradient(
+    linear-gradient(135deg, #0f0c29, #302b63, #24243e),repeating-linear-gradient(
     45deg,
     transparent,
     transparent 10px,
@@ -140,27 +143,16 @@ repeating-linear-gradient(
     inset 0 0 10px rgba(0, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.header::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,85,165,0.1) 0%, transparent 70%);
-    z-index: -1;
-}
+
 .header h1 {
     font-family: 'Audiowide', cursive;
     font-size: 4rem;
     font-weight: 400;
     letter-spacing: 2px;
     background: linear-gradient(90deg, #ff55a5, #00f7ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 15px rgba(255, 85, 165, 0.6);
     margin-bottom: 10px;
 }
+
 .header p {
     font-family: 'Oxanium', cursive;
     font-size: 1.1rem;
@@ -170,6 +162,7 @@ repeating-linear-gradient(
     text-align: center;
     line-height: 1.7;
 }
+
 .games-container {
     display: flex;
     gap: 20px;
@@ -179,16 +172,20 @@ repeating-linear-gradient(
     scrollbar-color: #444 #121212;
     width: auto;
 }
+
 .games-container::-webkit-scrollbar {
     height: 6px;
 }
+
 .games-container::-webkit-scrollbar-thumb {
     background-color: #ff55a5;
     border-radius: 10px;
 }
+
 .games-container::-webkit-scrollbar-track {
     background: #121212;
 }
+
 .game-card {
     min-width: 300px;
     width: auto;
@@ -202,11 +199,7 @@ repeating-linear-gradient(
     flex-direction: column;
     align-items: center;
 }
-.game-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 24px rgba(255, 85, 165, 0.4);
-    border-color: rgba(0, 247, 255, 0.4);
-}
+
 .game-card img {
     max-width: 450px;
     width: 100%;

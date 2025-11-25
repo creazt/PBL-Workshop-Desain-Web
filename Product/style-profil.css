@@ -1,15 +1,9 @@
-
-/* === BODY & GLOBAL === */
 body {
-    background-color: #2E294E;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-    padding-top: 100px;
-    color: white;
+  background-color: #2E294E;
+  padding: 20px;
+  padding-top: 100px;
 }
 
-/* === NAVBAR === */
 .navbar-neo {
   position: fixed;
   top: 0;
@@ -23,6 +17,10 @@ body {
   box-sizing: border-box;
   z-index: 1000;
 }
+
+.navbar-neo a{
+  text-decoration: none;
+    }
 
 .logo-neo {
   margin: 0;
@@ -56,24 +54,22 @@ body {
 }
 
 .nav-item .dropdown-toggle {
-        padding: 0 !important;
-        line-height: normal !important;
-        display: inline-block !important;
-        margin-top: -2px; 
-    }
+  padding: 0 !important;
+  line-height: normal !important;
+}
 
 .nav-item.dropdown .dropdown-menu {
-        display: none;
-        margin-top: 0; 
-        border: none;
-        border-radius: 0;
-        min-width: 250px; 
-        background-color: #1e1e3f; 
-        padding: 10px 0;
-        position: absolute; 
-        right: 0;
-        left: auto;
-    }
+  display: none;
+  margin-top: 0; 
+  border: none;
+  border-radius: 0;
+  min-width: 250px; 
+  background-color: #1e1e3f; 
+  padding: 10px 0;
+  position: absolute; 
+  right: 0;
+  left: auto;
+}
 
 .nav-item.dropdown img {
   width: 20px;
@@ -81,6 +77,7 @@ body {
   margin-right: 10px;
   vertical-align: middle;
 }
+
 
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
@@ -103,11 +100,9 @@ body {
   padding-top: 1px;
 }
 
-/* === GAME CARD (Tidak diubah dari layout asli) === */
 .game-card {
   display: flex;
   gap: 20px;
-
 }
 
 .game-poster {
@@ -141,6 +136,7 @@ body {
   flex-grow: 1;
   text-align: justify;
   font-size: 20px;
+  color: white;
 }
 
 .game-meta {
@@ -152,6 +148,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   font-size: 20px;
+  color: white;
 }
 
 .game-meta span {
@@ -222,18 +219,4 @@ body {
   color:#F1F5F9;
   opacity: 35%;
   justify-self: center;
-}
-
-/* Responsif */
-@media (max-width: 768px) {
-  .game-card {
-flex-direction: column;
-align-items: center;
-  }
-  .game-info {
-width: 100%;
-  }
-  .navbar-neo {
-    width: 100%;
-  }
 }

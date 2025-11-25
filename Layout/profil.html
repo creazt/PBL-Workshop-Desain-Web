@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NeoArcade - Layout Polos</title>
+  <title>NeoArcade - profil</title>
   <style>
     * {
       box-sizing: border-box;
@@ -15,10 +15,9 @@
       font-family: sans-serif;
       background: white;
       color: black;
-      padding-top: 60px; /* Ruang untuk navbar */
+      padding-top: 60px;
     }
 
-    /* === Navbar Polos === */
     .navbar-neo {
       position: fixed;
       top: 0;
@@ -60,7 +59,6 @@
       text-decoration: none;
     }
 
-    /* Dropdown (polos) */
     .dropdown-menu {
       display: none;
       position: absolute;
@@ -79,10 +77,9 @@
     .dropdown-item {
       height: 30px;
       border: 1px solid #000;
-      margin-bottom: -1px; /* Hindari double border */
+      margin-bottom: -1px; 
     }
 
-    /* === Game Card === */
     .game-card {
       display: flex;
       gap: 20px;
@@ -162,26 +159,10 @@
       border: 1px solid #000;
     }
 
-    /* === Responsif === */
-    @media (max-width: 768px) {
-      .game-card {
-        flex-direction: column;
-        align-items: center;
-      }
-      .game-poster {
-        width: 90%;
-        height: auto;
-        aspect-ratio: 2/3;
-      }
-      .game-info {
-        width: 90%;
-      }
-    }
   </style>
 </head>
 <body>
 
-  <!-- Navbar Polos -->
   <nav class="navbar-neo">
     <div class="logo-neo"></div>
     <ul class="nav-links">
@@ -200,7 +181,6 @@
     </ul>
   </nav>
 
-  <!-- Game Card Polos -->
   <div class="game-card">
     <div>
       <div class="game-poster"></div>
