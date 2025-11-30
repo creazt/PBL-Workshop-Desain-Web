@@ -218,3 +218,10 @@
     opacity: 35%;
     justify-self: center;
 }
+
+@media screen {
+    .section-carousel {
+        width: 300px; 
+        height: 300px;
+    }
+}
